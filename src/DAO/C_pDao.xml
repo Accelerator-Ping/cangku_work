@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="DAO.C_pDao">
+    <select id="queryByName" parameterType="java.lang.String" resultType="PO.C_p">
+        SELECT * FROM c_p WHERE user_name=#{user_name}
+    </select>
+    <select id="queryAll" resultType="PO.C_p">
+        SELECT * FROM c_p
+    </select>
+    <delete id="deletPerson" parameterType="java.lang.String">
+        DELETE FROM c_p WHERE user_name=#{name}
+    </delete>
+    <delete id="deletCp" parameterType="PO.C_p">
+        DELETE FROM c_p WHERE user_name=#{user_name} AND cargo_name=#{cargo_name} AND operation=#{operation} AND number=#{number}
+    </delete>
+    <insert id="insertCp" parameterType="PO.C_p">
+        INSERT INTO c_p(user_name,cargo_name,operation,number) VALUES (#{user_name},#{cargo_name},#{operation},#{number})
+    </insert>
+</mapper>
