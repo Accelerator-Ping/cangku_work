@@ -13,7 +13,7 @@
 <head>
     <title>查阅操作记录</title>
 </head>
-<body>
+<body style="background-image: url('./res/6.jpg');">
 <form  >
     操作记录列表：
     <table width="100%" border=1>

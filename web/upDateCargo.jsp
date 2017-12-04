@@ -10,7 +10,7 @@
 <head>
     <title>更新货物</title>
 </head>
-<body>
+<body style="background-image: url('./res/5.jpg');">
 <%
     String  s=request.getParameter("name");
     request.getSession(true).setAttribute("cargoname",s);

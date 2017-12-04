@@ -15,7 +15,7 @@
         <%=session.getAttribute("username")%>,你的操作记录为
     </title>
 </head>
-<body>
+<body style="background-image: url('./res/6.jpg');">
 <form  >
     操作记录列表：
     <table width="100%" border=1>

@@ -3,6 +3,7 @@ package controller;
 import DAO.PersonDao;
 import PO.Person;
 import org.apache.ibatis.session.SqlSession;
+import org.junit.Test;
 import util.MybatisUtil;
 
 import javax.servlet.ServletException;
@@ -44,6 +45,15 @@ public class updatePasswordServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doPost(request,response);
+    }
+
+    @Test
+    public void test(){
+        int a=0;
+        a++;
+        a++;
+        a++;
+
     }
 
 }

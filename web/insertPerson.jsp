@@ -10,7 +10,7 @@
 <head>
     <title>添加管理员</title>
 </head>
-<body>
+<body style="background-image: url('./res/6.jpg');">
 <form action="insertPerson" method="post">
     <table width="100%" border=1>
         请输入新增管理员的姓名

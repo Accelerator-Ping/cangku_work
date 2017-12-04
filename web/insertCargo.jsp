@@ -10,7 +10,7 @@
 <head>
     <title>添加货物信息</title>
 </head>
-<body>
+<body style="background-image: url('./res/2.jpg');">
 <form action="insertCargo" method="post">
     <table width="100%" border=1>
         请输入新增货物的信息

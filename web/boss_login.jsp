@@ -12,7 +12,7 @@
         <%=session.getAttribute("username")%>
     </title>
 </head>
-<body>
+<body style="background-image: url('./res/1.jpg');">
         <center>
             <a href="findPersonAll">查看员工信息</a>
             <br><br>

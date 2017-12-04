@@ -10,7 +10,7 @@
 <head>
     <title>ERROR</title>
 </head>
-<body>
+<body style="background-image: url('./res/4.jpg');">
 <h1>插入失败，已存在该管理员</h1>
 </body>
 </html>

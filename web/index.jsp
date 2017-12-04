@@ -14,7 +14,7 @@
   <title>Welcome</title>
 </head>
 
-<body>
+<body style="background-image: url('./res/2.jpg');">
 <form action="login" method="post">
   <table width="202" border="0" align="center" cellpadding="05" cellspacing="0" id="logintable">
     <tr >

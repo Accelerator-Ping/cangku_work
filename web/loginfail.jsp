@@ -10,7 +10,7 @@
 <head>
     <title>ERROR</title>
 </head>
-<body>
+<body style="background-image: url('./res/6.jpg');">
 <h1>登录失败，账号密码存在异常</h1>
 </body>
 </html>

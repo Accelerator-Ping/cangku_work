@@ -12,7 +12,7 @@
 <head>
     <title>查询管理员信息</title>
 </head>
-<body>
+<body style="background-image: url('./res/6.jpg');">
 
 <form >
     管理员列表：

@@ -13,7 +13,7 @@
         <%=session.getAttribute("username")%>
     </title>
 </head>
-<body>
+<body style="background-image: url('./res/6.jpg');">
 <form  >
     货物列表：
     <table width="100%" border=1>

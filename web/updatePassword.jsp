@@ -12,7 +12,7 @@
         <%=session.getAttribute("username")%>
     </title>
 </head>
-<body>
+<body style="background-image: url('./res/5.jpg');">
 <form action="updatePassword" method="post">
     <table width="202" border="0" align="center" cellpadding="05" cellspacing="0" id="logintable">
         <tr>
